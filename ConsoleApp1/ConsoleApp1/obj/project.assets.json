@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\ConsoleApp1\\ConsoleApp1\\Agenda.csproj",
+      "projectName": "Agenda",
+      "projectPath": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\ConsoleApp1\\ConsoleApp1\\Agenda.csproj",
       "packagesPath": "C:\\Users\\NewUsername\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",

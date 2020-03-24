@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace Agenda
 {
     class Program
     {
@@ -9,5 +9,5 @@ namespace ConsoleApp1
             Console.WriteLine("Hello World!");
         }
     }
-    sdfsdfsdfsdfsdfsdfkdgk
+    
 }
