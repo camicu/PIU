@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
 
 using System;
@@ -14,6 +13,10 @@ namespace Agenda
 		string data_de_nastere;
 		int nr_de_telefon;
 		string email;
+		bool isPrieten;
+		bool isFamilie;
+		bool isServiciu;
+
 
 		//Constructor fara parametrii
 		public Persoana()
@@ -23,6 +26,9 @@ namespace Agenda
 			data_de_nastere = string.Empty;
 			nr_de_telefon = 0;
 			email = string.Empty;
+			isPrieten = false;
+			isFamilie = false;
+			isServiciu = false;
 
 		}
 
@@ -35,7 +41,15 @@ namespace Agenda
 			nr_de_telefon = _nr_de_telefon;
 			email = _email;
 		}
-
+		public Persoana(string Sir)
+		{
+			string[] buff = Sir.Split(",");
+			nume = buff[0];
+			prenume = buff[1];
+			data_de_nastere = buff[2];
+			nr_de_telefon = Int32.Parse(buff[3]);
+			email = buff[4];
+		}
 		// Serie de functii get si set
 		public string getNume()
 		{
@@ -113,6 +127,22 @@ namespace Agenda
 			{
 				Console.Write("Numarul nu este valid!");
 			}
+		}
+		public void SetPrieten()
+		{
+			isPrieten = true;
+		}
+		public void SetFamilie()
+		{
+			isFamilie = true;
+		}
+		public void SetServiciu()
+		{
+			isServiciu = true;
+		}
+		public void Afis()
+		{
+			Console.WriteLine("Nume:{0}, Prenume:{1},Data nasterii:{2}, Email:{3},Nr telefon:{4}", nume, prenume, data_de_nastere, email, nr_de_telefon);
 		}
 
 	}

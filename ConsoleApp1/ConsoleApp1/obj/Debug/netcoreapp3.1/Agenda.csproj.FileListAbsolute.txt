@@ -1,0 +1,13 @@
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Agenda.exe
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Agenda.deps.json
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Agenda.runtimeconfig.json
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Agenda.runtimeconfig.dev.json
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Agenda.dll
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Agenda.pdb
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Agenda.csprojAssemblyReference.cache
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Agenda.csproj.CoreCompileInputs.cache
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Agenda.AssemblyInfoInputs.cache
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Agenda.AssemblyInfo.cs
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Agenda.dll
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Agenda.pdb
+C:\Users\NewUsername\Source\Repos\camicu\PIU\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Agenda.genruntimeconfig.cache
