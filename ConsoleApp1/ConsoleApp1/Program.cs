@@ -81,6 +81,7 @@ namespace Agenda
 
                     case "5":
                         {
+                            Console.WriteLine("Se inchide programul");
                             ok = false;
                             break;
                         }
