@@ -9,6 +9,7 @@ namespace Agenda
             bool ok = true;
             string opt;
             Persoana a=new Persoana();
+            Persoana[] c;
             Persoana b;
             while (ok)
             { 
@@ -68,13 +69,13 @@ namespace Agenda
                         }
                     case "2":
                         {
-                            Console.WriteLine("Samdkhsakjdhkasj");
+                            Console.WriteLine("Optiunea nr.2");
                             Console.ReadKey();
                             break;
                         }
                     case "3":
                         {
-                            Console.WriteLine("BITCH IM A COW");
+                            Console.WriteLine("Optiunea nr.3");
                             Console.ReadKey();
                             break;
                         }
