@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Lab3.2": {
+      "commandName": "Project",
+      "commandLineArgs": "ana maria ioana ionel cosmin brancusi marian zizi yuri mihai viorel "
+    }
+  }
+}

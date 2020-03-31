@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Librarie;
+using System;
 
 namespace Agenda
 {
@@ -8,11 +9,11 @@ namespace Agenda
         {
             bool ok = true;
             string opt;
-            Persoana a=new Persoana();
-            Persoana[] c;
+            Persoana a = new Persoana();
+            // Persoana[] c;
             Persoana b;
             while (ok)
-            { 
+            {
                 Console.Clear();
                 Console.WriteLine("MENIU\n------------------------------------------------------\n");
                 Console.WriteLine("1) Adaugati un contact in agenda\n");
@@ -24,7 +25,7 @@ namespace Agenda
                 opt = Console.ReadLine();
                 switch (opt)
                 {
-                case "1":
+                    case "1":
                         {
                             Console.WriteLine("Selectati grupul in care apartile:...\n");
                             Console.WriteLine("1) Prieteni\n");
@@ -32,19 +33,17 @@ namespace Agenda
                             Console.WriteLine("3) Serviciu\n");
 
                             string opt1 = Console.ReadLine();
-
-                            string _nume, _prenume, _email, _data;
-                            int _nr;
                             Console.WriteLine("Introduceti numele persoanei:...");
-                            _nume = Console.ReadLine();
+                            string _nume = Console.ReadLine();
                             Console.WriteLine("Introduceti prenumele persoanei:...");
-                            _prenume = Console.ReadLine();
+                            string _prenume = Console.ReadLine();
                             Console.WriteLine("Introduceti email-ul persoanei");
-                            _email = Console.ReadLine();
+                            string _email = Console.ReadLine();
                             Console.WriteLine("Introduceti data nasterii a persoanei");
-                            _data = Console.ReadLine();
+                            string _data = Console.ReadLine();
                             Console.WriteLine("Introduceti numarul de telefon al persoaneri");
-                            _nr = Int32.Parse(Console.ReadLine());
+                            int _nr = Int32.Parse(Console.ReadLine());
+
                             a.SetNume(_nume);
                             a.SetPrenume(_prenume);
                             a.SetEmail(_email);
@@ -66,6 +65,7 @@ namespace Agenda
                             a.Afis();
                             Console.ReadKey();
                             break;
+
                         }
                     case "2":
                         {
@@ -102,5 +102,5 @@ namespace Agenda
 
         }
     }
-    
+
 }
