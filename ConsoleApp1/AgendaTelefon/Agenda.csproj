@@ -6,4 +6,8 @@
     <AssemblyName>Librarie</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Librarie\Librarie.csproj" />
+  </ItemGroup>
+
 </Project>

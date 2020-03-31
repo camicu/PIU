@@ -2,10 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\ConsoleApp1",
+    "\\ConsoleApp1\\AgendaTelefon",
+    "\\ConsoleApp1\\AgendaTelefon\\obj",
     "\\ConsoleApp1\\ConsoleApp1",
-    "\\ConsoleApp1\\Librarie",
-    "\\Lab3.2\\Lab3.2"
+    "\\Lab3",
+    "\\Lab3\\EvidentaStudenti",
+    "\\Lab3\\EvidentaStudenti\\EvidentaStudenti",
+    "\\Lab3\\EvidentaStudenti\\LibrarieEntitati"
   ],
-  "SelectedNode": "\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+  "SelectedNode": "\\Lab3\\EvidentaStudenti\\EvidentaStudenti\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
