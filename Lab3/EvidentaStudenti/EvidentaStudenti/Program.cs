@@ -37,6 +37,10 @@ namespace ManagementStudenti
                         Console.WriteLine("Dati numarul de ani inregistrati cu note");
                         an = Int32.Parse(Console.ReadLine());
                         int[][] notes = new int[4][];
+                        for(int i=0;i<4;i++)
+                        {
+                        notes[i]=new int[15];
+                        }
                         for (int i = 0; i < an; i++)
                         {
                             Console.WriteLine("Dati numarul de note din anul {0}", i);
@@ -48,7 +52,7 @@ namespace ManagementStudenti
                                 notes[i][j] = x;
                             }
                         }
-                        s.SetNote(s.note, notes);
+                        s.note = notes;
                         Console.ReadKey();
                         break;
                     case "C":

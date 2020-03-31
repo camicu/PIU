@@ -28,7 +28,7 @@ namespace LibrarieEntitati
         }
         public void SetNote(int [][]notes,int[][]notess)
         {
-            notess = notes;
+            notes = notess;
            
         }
         

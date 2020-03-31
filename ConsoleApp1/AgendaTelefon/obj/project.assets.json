@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Librarie/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Librarie.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Librarie.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Librarie/1.0.0": {
-      "type": "project",
-      "path": "../Librarie/Librarie.csproj",
-      "msbuildProject": "../Librarie/Librarie.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Librarie >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\NewUsername\\.nuget\\packages\\": {}
@@ -33,7 +14,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\ConsoleApp1\\ConsoleApp1\\Agenda.csproj",
-      "projectName": "Agenda",
+      "projectName": "Librarie",
       "projectPath": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\ConsoleApp1\\ConsoleApp1\\Agenda.csproj",
       "packagesPath": "C:\\Users\\NewUsername\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\ConsoleApp1\\ConsoleApp1\\obj\\",
@@ -51,11 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\ConsoleApp1\\Librarie\\Librarie.csproj": {
-              "projectPath": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\ConsoleApp1\\Librarie\\Librarie.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
