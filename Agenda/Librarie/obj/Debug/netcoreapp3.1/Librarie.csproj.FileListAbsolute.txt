@@ -1,0 +1,9 @@
+C:\Users\NewUsername\source\repos\Agenda\Librarie\bin\Debug\netcoreapp3.1\Librarie.deps.json
+C:\Users\NewUsername\source\repos\Agenda\Librarie\bin\Debug\netcoreapp3.1\Librarie.dll
+C:\Users\NewUsername\source\repos\Agenda\Librarie\bin\Debug\netcoreapp3.1\Librarie.pdb
+C:\Users\NewUsername\source\repos\Agenda\Librarie\obj\Debug\netcoreapp3.1\Librarie.csprojAssemblyReference.cache
+C:\Users\NewUsername\source\repos\Agenda\Librarie\obj\Debug\netcoreapp3.1\Librarie.csproj.CoreCompileInputs.cache
+C:\Users\NewUsername\source\repos\Agenda\Librarie\obj\Debug\netcoreapp3.1\Librarie.AssemblyInfoInputs.cache
+C:\Users\NewUsername\source\repos\Agenda\Librarie\obj\Debug\netcoreapp3.1\Librarie.AssemblyInfo.cs
+C:\Users\NewUsername\source\repos\Agenda\Librarie\obj\Debug\netcoreapp3.1\Librarie.dll
+C:\Users\NewUsername\source\repos\Agenda\Librarie\obj\Debug\netcoreapp3.1\Librarie.pdb
