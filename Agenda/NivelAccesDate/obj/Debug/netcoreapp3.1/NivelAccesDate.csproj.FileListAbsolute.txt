@@ -1,0 +1,12 @@
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\bin\Debug\netcoreapp3.1\NivelAccesDate.deps.json
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\bin\Debug\netcoreapp3.1\NivelAccesDate.dll
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\bin\Debug\netcoreapp3.1\NivelAccesDate.pdb
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\bin\Debug\netcoreapp3.1\Librarie.dll
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\bin\Debug\netcoreapp3.1\Librarie.pdb
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\obj\Debug\netcoreapp3.1\NivelAccesDate.csprojAssemblyReference.cache
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\obj\Debug\netcoreapp3.1\NivelAccesDate.csproj.CoreCompileInputs.cache
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\obj\Debug\netcoreapp3.1\NivelAccesDate.AssemblyInfoInputs.cache
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\obj\Debug\netcoreapp3.1\NivelAccesDate.AssemblyInfo.cs
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\obj\Debug\netcoreapp3.1\NivelAccesDate.csproj.CopyComplete
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\obj\Debug\netcoreapp3.1\NivelAccesDate.dll
+C:\Users\NewUsername\source\repos\camicu\PIU\Agenda\NivelAccesDate\obj\Debug\netcoreapp3.1\NivelAccesDate.pdb
