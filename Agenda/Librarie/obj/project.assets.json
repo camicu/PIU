@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NewUsername\\source\\repos\\Agenda\\Librarie\\Librarie.csproj",
+      "projectUniqueName": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\Agenda\\Librarie\\Librarie.csproj",
       "projectName": "Librarie",
-      "projectPath": "C:\\Users\\NewUsername\\source\\repos\\Agenda\\Librarie\\Librarie.csproj",
+      "projectPath": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\Agenda\\Librarie\\Librarie.csproj",
       "packagesPath": "C:\\Users\\NewUsername\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NewUsername\\source\\repos\\Agenda\\Librarie\\obj\\",
+      "outputPath": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\Agenda\\Librarie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NewUsername\\AppData\\Roaming\\NuGet\\NuGet.Config",
