@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NewUsername\\source\\repos\\Lab3.2\\Lab3.2\\Lab3.2.csproj",
+      "projectUniqueName": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\Lab3\\Lab3.2\\Lab3.2\\Lab3.2.csproj",
       "projectName": "Lab3.2",
-      "projectPath": "C:\\Users\\NewUsername\\source\\repos\\Lab3.2\\Lab3.2\\Lab3.2.csproj",
+      "projectPath": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\Lab3\\Lab3.2\\Lab3.2\\Lab3.2.csproj",
       "packagesPath": "C:\\Users\\NewUsername\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NewUsername\\source\\repos\\Lab3.2\\Lab3.2\\obj\\",
+      "outputPath": "C:\\Users\\NewUsername\\source\\repos\\camicu\\PIU\\Lab3\\Lab3.2\\Lab3.2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NewUsername\\AppData\\Roaming\\NuGet\\NuGet.Config",

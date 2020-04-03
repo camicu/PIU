@@ -5,6 +5,7 @@ namespace Librarie
 	public class Persoana
 	{
 		//constante
+		Grup grup;
 		private const string SEPARATOR_AFISARE = " ";
 		private const char SEPARATOR_PRINCIPAL_FISIER = ';';
 		//lista de parametrii
@@ -15,8 +16,13 @@ namespace Librarie
 		public string DataDeNastere { get; set; }
 		public int NrDeTelefon { get; set; }
 		public string Email { get; set; }
+		public Grup Grupul
+		{
+			get;
 
-		public Grup Grupul { get; set; }
+			set;
+
+		}
 
 		//Constructor fara parametrii
 		public Persoana()
@@ -31,9 +37,8 @@ namespace Librarie
 			Grupul = Grup.Necunoscut;
 
 		}
-
 		//Constructor cu parametrii
-		public Persoana(string _nume, string _prenume, string _data, int _nr_de_telefon, string _email)
+		public Persoana(string _nume, string _prenume, string _data, int _nr_de_telefon, string _email, Grup grup)
 		{
 			Nume = _nume;
 			Prenume = _prenume;
@@ -42,17 +47,18 @@ namespace Librarie
 			Email = _email;
 			IdPersoana = IdUltimaPersoana;
 			IdUltimaPersoana++;
-			Grupul = Grup.Necunoscut;
+			Grupul = grup;
 		}
 		public Persoana(string Sir)
 		{
-			string[] buff = Sir.Split(',');
+			string[] buff = Sir.Split(';');
 			Nume = buff[0];
 			Prenume = buff[1];
 			DataDeNastere = buff[2];
 			NrDeTelefon = Int32.Parse(buff[3]);
 			Email = buff[4];
-			Grupul = Grup.Necunoscut;
+			Enum.TryParse(buff[5], out grup);
+			Grupul = grup;
 			IdPersoana = IdUltimaPersoana;
 			IdUltimaPersoana++;
 		}
@@ -64,14 +70,14 @@ namespace Librarie
 				sNote = string.Join(SEPARATOR_AFISARE, Nume);
 			}
 
-			string s = string.Format("{1}{0}{2}{0}{3}{0}{4}{0}{5}", SEPARATOR_PRINCIPAL_FISIER, (Nume ?? " NECUNOSCUT "), (Prenume ?? " NECUNOSCUT "), (DataDeNastere ?? "NECUNOSCUT"), (Email ?? "NECUNOSCUT"), NrDeTelefon, Grupul);
+			string s = string.Format("{1}{0}{2}{0}{3}{0}{4}{0}{5}{0}{6}", SEPARATOR_PRINCIPAL_FISIER, (Nume ?? " NECUNOSCUT "), (Prenume ?? " NECUNOSCUT "), (DataDeNastere ?? "NECUNOSCUT"), NrDeTelefon, (Email ?? "NECUNOSCUT"), Grupul);
 
 			return s;
 		}
 		public string ConversieLaSir()
 		{
 			string sir = string.Empty;
-			sir = String.Concat("Numele este:", Nume, "\nPrenumele este:", Prenume, "\nData nasterii este:", DataDeNastere, "\nEmail-ul este:", Email, String.Format("\nNumarul de telefon este:{0}", NrDeTelefon), "\nGrupul din care face parte este:", Grupul);
+			sir = String.Concat("Numele este:", Nume, "\nPrenumele este:", Prenume, "\nData nasterii este:", DataDeNastere, "\nEmail-ul este:", Email, String.Format("\nNumarul de telefon este:{0}", NrDeTelefon), "\nGrupul din care face parte este:",String.Format("{0}", Grupul));
 			return sir;
 		}
 
