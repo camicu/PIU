@@ -10,10 +10,9 @@ namespace Librarie
     public enum Grup
     {
         Prieteni = 1,
-        Serviciu = 2,
-        Familie = 3,
+        Familie = 2,
+        Serviciu = 3,
         Necunoscut = 4,
-
     };
 
 }

@@ -16,6 +16,7 @@ namespace NivelAccesDate
             Stream sFisierText = File.Open(numeFisier, FileMode.OpenOrCreate);
             sFisierText.Close();
         }
+
         public void AddPersoana(Persoana s)
         {
             try
@@ -24,6 +25,7 @@ namespace NivelAccesDate
                 //al doilea parametru setat la 'true' al constructorului StreamWriter indica modul 'append' de deschidere al fisierului
                 using (StreamWriter swFisierText = new StreamWriter(NumeFisier, true))
                 {
+                   
                     swFisierText.WriteLine(s.ConversieLaSir_PentruFisier());
                 }
             }

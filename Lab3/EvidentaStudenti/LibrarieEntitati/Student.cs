@@ -19,12 +19,6 @@ namespace LibrarieEntitati
         {
             nume = _nume;
             note = new int[4][ ];
-            for (int i = 0; i < 4; i++)
-            {
-                note[i] = new int[15];
-            }
-           
-
         }
         public void SetNote(int [][]notes,int[][]notess)
         {
@@ -35,21 +29,19 @@ namespace LibrarieEntitati
         public void SetNote(string sirNote)
         {
             note = new int[4][];
-            for (int i = 0; i < 4; i++)
-            {
-                note[i] = new int[15];
-            }
-            
+         
             if (!sirNote.Equals(""))
             {
                string[] buff1 = sirNote.Split(',');
                // diml = buff1.Length;
                 for (int i = 0; i < buff1.Length; i++)
-                {
+                {                   
                    string[] buff2 = buff1[i].Split(' ');
+                    note[i] = new int[buff2.Length];
 
                     for (int j = 0; j < buff2.Length; j++)
                     {
+                        
                         int number;
                         bool succes = Int32.TryParse(buff2[j], out number);
                         if (succes)
